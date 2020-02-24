@@ -1,1 +1,4 @@
-var g = G$(firstname, lastname, language);
+var g = G$("John", "Doe");
+g.greet()
+  .setLang("es")
+  .greet(true);
